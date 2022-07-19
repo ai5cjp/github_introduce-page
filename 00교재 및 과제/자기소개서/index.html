@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>자기소개서</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+      <div id="profile">
+        <div class="container">
+        <header id="intro">
+
+          <h2>
+            <a href="#">Hello Elice Friends!</a>
+          </h2>
+          
+          <p>제 소개페이지에 오신 여러분을 환영합니다!:)</p>
+          
+          <nav>
+            <ul>
+              <li class="one"><a href="#">자기 소개</a></li>
+              <li class="two"><a href="#">Git Hub???</a></li>
+              <li class="three">
+                <a href="https://blog.naver.com/vlf90" target="_blank">
+                블로그!!!
+                </a></li>
+            </ul>
+          </nav>
+        </header>
+        </div>
+    
+        <main role="main" id="main">
+          <article class="one">
+              <a href="#">
+              <img src="profile.jpg" id="profilePic"/>
+
+              <h3 style="color: yellowgreen;">최 정 필</h3>
+              </a>
+          </article>
+
+              <span>
+              <br>
+              <strong>관심 직무 및 앞으로의 목표</strong>
+              <br>
+              <span id="first" onclick="document.querySelector('#first').innerHTML = '관심 직무 : 웹 및 앱 인공지능 개발자 <br> 앞으로의 목표 : <br> ① 고객 참여 쇼핑몰 홈페이지 <br> ② 주식 계산식 공유 플랫폼 <br> ③ 나는 솔로 오프라인 버전 어플'">
+                <span style="font-style: italic">click!</span>
+              </span>
+              <br>
+            
+              <br>
+              <strong>관심 분야 또는 기술</strong>
+              <br>
+              <span id="second" onclick="document.querySelector('#second').innerHTML = 'HTML, CSS, JS 및 딥러닝'">
+                <span style="font-style: italic">click!</span>
+              </span>
+              <br>
+
+              <br>
+              <strong>AI 트랙에서 가장 기대되는 점</strong>
+              <br>
+              <span id="third" onclick="document.querySelector('#third').innerHTML = '프로그래밍 쉽던데?라고 자랑스럽게 말하기'">
+                 <span style="font-style: italic">click!</span>
+              </span>
+              <br>
+
+              <br>
+              <strong>동료 레이서들에게 하고 싶은 말</strong>
+              <br>
+              <span id="fourth" onclick="document.querySelector('#fourth').innerHTML = '매일 어려워 포기하고 싶지만..(혹시..저만?;) <br> 함께 힘내서 컴퓨터와 친해져요 우리!'">
+                <span style="font-style: italic">click!</span>              
+              </span>
+              <br>
+
+              <br>
+              <strong>취미 및 특기</strong>
+              <br>
+              <span id="fifth" onclick="document.querySelector('#fifth').innerHTML = '아침수영 및 아침 요가 / 집에서 함께 맛있는거 해먹기'">
+                <span style="font-style: italic">click!</span>
+              </span>
+            
+        
+        </main>
+    
+        <footer id="footer">
+
+          <div class="copyright">
+            <p>copyright & copy : 2022 최 정 필.</p>
+          </div>
+
+          <div class="address">
+            <p>서울시 금천구 독산동 어느 집에서.</p>
+          </div>
+        </footer>
+
+      </div>  
+
+      <script src="index.js"></script>
+
+    </body>
+</html>
